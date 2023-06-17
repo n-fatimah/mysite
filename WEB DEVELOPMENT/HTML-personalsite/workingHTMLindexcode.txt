@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Louis Pesonal Site</title>
+
+    <!--To apply this style in hobbies and contactme also make css file and its link in heads of these files-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--<style>
+    body{
+        background-color: papayawhip ;
+
+    }
+    hr{
+      background-color: papayawhip;
+      border-style: dotted none none ;/*1 value means aply to all 4sides.. 2 means first wali topbottom 2nd leftright..3 means 1st wali top 2nd lftr8 3rd bottom*/
+      /*or we can use more specific property border-top-style to change its top as below 2 steps*/
+      /*border-style: none*/
+      /*border-top-style: dotted*/
+      border-color: grey;
+      border-width: 5px;  /*size of dots*/
+      height: 0;         /*ya na lkho tou default 0*/
+      width: 5%;     /* width: 30%......it means 30% of webpage.. width:100px */
+
+    }
+
+    </style>-->
+    
+
+</head>
+
+<body>
+    <!--<body style="background-color: papayawhip;"></body>-->
+    <!--but we have to change everywhere if the tag is more than 1 place so change in head-->
+    <!--but to apply on all .html make seperate .css-->
+    <table cellspacing="20">
+        <tr>
+            <td>
+                <img src="fake-human-circle-img.png" alt="John Louis's profile pic">
+            </td>
+            <td>
+                <h1> John Louis </h1>
+                <p><em>Data Analyst | Software Engineer </em></p>
+                <p>I'm an engineer seeking moonshot in the health / bio sector. I'm also
+                    <a href="https://ughb.stanford.edu/majors-minors/biomedical-computation-major-program">
+                        <stong>Stanford
+                            class of 2020 B.S. in Biomedical Computation</stong>
+                    </a>, and class of 2021<br> M.S. in
+                    Computer Science AI specialization. My primary interests have been precision health,
+                    data flow, zero to one, and the list is still growing.
+                </p>
+            </td>
+        </tr>
+
+
+    </table>
+    <hr size="3">
+    <h3>LAnguages</h3>
+    <ul>
+        <li>MS SUITE</li>
+        <li>PYTHON</li>
+        <li>JS/TS/REACT</li>
+    </ul>
+    <h3>Work Experience</h3>
+    <ol>
+
+        <li>Amazon</li>
+        <li>Invitae</li>
+        <li>Genentech</li>
+    </ol>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Company</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2017-2019</td>
+                <td>Amazon</td>
+            </tr>
+            <tr>
+                <td>2019-2021</td>
+                <td>Amazon</td>
+            </tr>
+        </tbody>
+       
+    </table>
+
+    <a href="hobbies.html">Hobbies </a>
+   <br>
+    <a href="contactme.html">Contact Details </a>
+    <hr>
+ <h3>Skills</h3>
+    <table cellspacing="20">
+<tr>
+     <td>iOs Development</td>
+     <td>⭐⭐⭐⭐</td>
+</tr>
+<tr>
+    <td>Photography</td>
+    <td>⭐⭐⭐</td>
+</tr>
+
+    </table>
+
+
+</body>
+
+</html>
+<!--Index.html-->
